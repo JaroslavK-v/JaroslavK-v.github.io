@@ -36,10 +36,13 @@ body {
     
 }
 
+.contacts {
+    margin-top: -10px; 
+}
+
 .social-buttons {
     display: inline-block;
     margin: 0;
-    margin-top: -10px; 
     width: 100px;
     position: relative;
 }
@@ -65,7 +68,7 @@ body {
     height: 20px;
     border: 1px solid #fff;
     box-sizing: border-box;
-    background: url(http://via.placeholder.com/20x20);
+    background: #ccc url(http://via.placeholder.com/20x20) 50% 50%/cover;
 }
 
 .social-buttons__button--inline {
