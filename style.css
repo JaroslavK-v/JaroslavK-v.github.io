@@ -1,0 +1,99 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family:  'Open Sans', sans-serif;
+    color: #fff;
+    background: #34495e;
+    
+}
+
+.page-wrapper {
+    width: 800px; 
+    margin: 40px auto 20px;
+/*    background: #ecf0f1;*/
+    min-height: 90vh;
+}
+
+.person-info {
+    line-height: 30px;
+    margin: 30px 20px 10px;
+    
+}
+
+.person-info__surname {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.person-info__name {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.social-buttons {
+    display: inline-block;
+    margin: 0;
+    margin-top: -10px; 
+    width: 100px;
+    position: relative;
+}
+
+.social-buttons::after {
+    content: "";
+    width: 2px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+}
+
+.social-buttons--inline {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.social-buttons__button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background: url(http://via.placeholder.com/20x20);
+}
+
+.social-buttons__button--inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.mail {
+    display: inline-block;
+    vertical-align: super;
+}
+
+.mail__link {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.person-info__person-photo {
+    width: 200px;
+    height: 250px;
+    background: #ccc url(http://via.placeholder.com/200x250) 50% 50% /cover;
+    
+}
+.person-info__person-photo--right {
+    float: right;
+    margin-right: 10%;
+    margin-top: -30px;
+}
