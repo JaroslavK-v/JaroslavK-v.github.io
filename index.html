@@ -6,13 +6,17 @@
         <title>Resume</title>
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans&amp;subset=cyrillic" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
         
     
     </head>
     <body>
-        <header>
         <div class="page-wrapper">
             <header>
+        
+          
                 
                 <div class="person-info">
                     <div class="person-info__person-photo person-info__person-photo--right"></div>
@@ -29,7 +33,7 @@
                 </div>
                 <div class="menu-container">
                     <menu>
-                        <button class="menu_container__button">Образование</button>
+                        <button class="menu_container__button edu_btn">Образование</button>
                         <button class="menu_container__button">Курсы</button>
                         <button class="menu_container__button">HTML/CSS/JS ?</button>
                         <button class="menu_container__button">What about English?</button>
@@ -37,28 +41,84 @@
                     </menu>
                 
                 </div>
+            
                 </header>
-                <div class="content-box">
-                    <div class="content-box__article-title">
-                        <h2 class="article-title--style">minim ingeniis</h2>
+                <div class="content-wrapper">
+                    <div class="content-box" id="education">
+                        <div class="content-box__article-title">
+                            <h2 class="article-title--style">Образование</h2>
+
+                        </div>
+                        <div class="content-box__article-text">
+                            <p class="article-text--style">Expetendis fugiat ingeniis ab ea hic duis aute magna. Consequat qui nisi 
+                                nostrud, ubi legam cernantur consectetur, vidisse summis multos eiusmod nulla, 
+                                hic esse consequat probant. Quibusdam sunt velit hic quae eu ubi quis nulla qui 
+                                eiusmod, elit non consequat se enim iis incididunt nisi nostrud singulis. Ubi 
+                                qui despicationes. Nescius noster quis nostrud quorum. Fabulas tamen excepteur 
+                                id varias appellat aut enim labore id aliqua do quo noster quibusdam, offendit a 
+                                irure cupidatat. Commodo ipsum nostrud, voluptate sint admodum. Mandaremus esse 
+                                sint singulis eram.</p>
+                        </div>
+                    </div>
                     
+                    <div class="content-box" id="courses">
+                        <div class="content-box__article-title">
+                            <h2 class="article-title--style">Курсы</h2>
+
+                        </div>
+                        <div class="content-box__article-text">
+                            <p class="article-text--style">Tempor do admodum ne illum do incurreret et elit. Legam occaecat an adipisicing 
+                                ea o id quid iudicem a voluptate nam dolor, o summis cernantur quo et malis 
+                                exquisitaque an mentitum noster labore offendit culpa o quorum qui tempor hic 
+                                dolore, senserit ipsum non senserit exquisitaque. Ex quem consequat, id culpa 
+                                irure velit cernantur ex quem fabulas laborum, nulla a ab nisi laborum, 
+                                quibusdam elit nescius, ingeniis enim ex ullamco exercitation, possumus lorem 
+                                mentitum, enim pariatur qui offendit.</p>
+                        </div>
+                    </div> 
+                    <div class="content-box" id="hcj">
+                        <div class="content-box__article-title">
+                            <h2 class="article-title--style">HTML/CSS/JS</h2>
+
+                        </div>
+                        <div class="content-box__article-text">
+                            <p class="article-text--style">singulis nisi proident illustriora illustriora cohaerescant ad familiaritatem 
+                                admodum te iudicem efflorescere voluptatibus varias sempiternum veniam doctrina 
+                                ubi malis ut</p>
+                        </div>
+                    </div> 
+                    
+                    <div class="content-box" id="english">
+                        <div class="content-box__article-title">
+                            <h2 class="article-title--style">What about English?</h2>
+
+                        </div>
+                        <div class="content-box__article-text">
+                            <p class="article-text--style">o ingeniis eram sint ullamco summis comprehenderit laborum adipisicing est ex 
+                                litteris arbitror labore imitarentur coniunctione esse laboris quamquam non 
+                                veniam quis eruditionem quis dolore vidisse aut cupidatat instituendarum tempor 
+                                admodum mentitum appellat laboris duis offendit irure doctrina quid nescius</p>
+                        </div>
                     </div>
-                    <div class="content-box__article-text">
-                        <p class="article-text--style">Expetendis fugiat ingeniis ab ea hic duis aute magna. Consequat qui nisi 
-                            nostrud, ubi legam cernantur consectetur, vidisse summis multos eiusmod nulla, 
-                            hic esse consequat probant. Quibusdam sunt velit hic quae eu ubi quis nulla qui 
-                            eiusmod, elit non consequat se enim iis incididunt nisi nostrud singulis. Ubi 
-                            qui despicationes. Nescius noster quis nostrud quorum. Fabulas tamen excepteur 
-                            id varias appellat aut enim labore id aliqua do quo noster quibusdam, offendit a 
-                            irure cupidatat. Commodo ipsum nostrud, voluptate sint admodum. Mandaremus esse 
-                            sint singulis eram.</p>
+                    <div class="content-box" id="frontend">
+                        <div class="content-box__article-title">
+                            <h2 class="article-title--style">Почему фронтэнд</h2>
+
+                        </div>
+                        <div class="content-box__article-text">
+                            <p class="article-text--style"> Te quamquam nam occaecat, iudicem 
+                                multos admodum incurreret hic fore ex singulis hic quae, quem ullamco eu 
+                                comprehenderit ea deserunt iis iudicem ea arbitror ad doctrina, de dolore 
+                                laboris mentitum do e magna arbitror relinqueret. Nulla admodum consectetur in 
+                                multos admodum id praetermissum. </p>
+                        </div>
                     </div>
-                
                 
                 </div>
             
         </div>
     
+        <script src="main.js" type="text/javascript"></script>
     </body>
     
 

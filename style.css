@@ -119,12 +119,14 @@ body {
     font-weight: bold;
     border:none;
     background-color: #587DA7;
+    transition: 300ms background-color;
     
     
 }
 
 .menu_container__button:hover {
     background-color: #FFA549;
+    transition: 300ms background-color;
 }
 
 .menu_container__button:focus {
@@ -143,12 +145,12 @@ header::after {
     clear: both;
 }
 
-.content-box {
+.content-wrapper {
     min-height: 120px;
     padding: 10px 15px;
     margin-top: 50px;
-/*    background-color: aliceblue;*/
-    
+    max-height: calc(100vh - 330px);
+    overflow: overlay;
 }
 
 .content-box__article-title {
@@ -160,8 +162,9 @@ header::after {
 }
 
 .article-title--style {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: italic;
+    font-weight: normal;
 }
 
 .content-box__article-text {
@@ -174,4 +177,15 @@ header::after {
 .article-text--style {
     margin: 0;
     text-align: justify;
+}
+
+.content-box--hidden {
+    display: none;
+}
+
+
+
+.content-box {
+    margin: 10px 0;
+    
 }
