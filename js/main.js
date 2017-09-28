@@ -17,6 +17,7 @@ window.onload = function() {
         function() {
                     $('#' + defaultButton.prop('name')).addClass('content-box--hidden');
                     let blockNameSelector = '#' + $(this).prop('name');
+            console.log(blockNameSelector);
                     $( blockNameSelector ).removeClass('content-box--hidden')
                                           
     $('.menu_container__button').focusout(
