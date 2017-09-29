@@ -1,11 +1,12 @@
 var hiddenContent = $(".content-box");
 var defaultButton =  $('.menu_container__button[name="education"]');
- var defaultOn = false;
+var defaultOn = false;
  
 function setDefaultFocus(buttonName) {
     buttonName.trigger('focus');
      $('#' + buttonName.prop('name')).removeClass('content-box--hidden');
     var defaultOn = true;
+    return false
 }
 
 window.onload = function() {
@@ -15,15 +16,12 @@ window.onload = function() {
         
     
         function() {
-                    $('#' + defaultButton.prop('name')).addClass('content-box--hidden');
+                    $('.content-box').addClass('content-box--hidden');
                     let blockNameSelector = '#' + $(this).prop('name');
-            console.log(blockNameSelector);
                     $( blockNameSelector ).removeClass('content-box--hidden')
                                           
-    $('.menu_container__button').focusout(
-         function() {
-                    $( blockNameSelector ).addClass('content-box--hidden')
-                                          })
+
         }
     )
+    return false
 }
