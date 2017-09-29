@@ -67,8 +67,6 @@ body {
     width: 20px;
     height: 20px;
     border: 1px solid #fff;
-    border-radius: 2px;
-    box-sizing: border-box;
     background: #ccc url(http://via.placeholder.com/20x20) 50% 50%/cover;
 }
 
@@ -78,15 +76,15 @@ body {
 }
 
 .social-buttons__button--vk {
-    background: #ccc url(/static/social_small.png) 3px 2px no-repeat;
+    background: #ccc url(/static/social_small.png) -3px -2px no-repeat;
 }
 
 .social-buttons__button--fb {
-    background: #ccc url(/static/social_small.png) 26px 2px no-repeat;
+    background: #ccc url(/static/social_small.png) -26px -2px no-repeat;
 }
 
 .social-buttons__button--git {
-    background: #ccc url(/static/social_small.png) 48px 2px no-repeat;
+    background: #ccc url(/static/social_small.png) -48px -2px no-repeat;
 }
 
 .mail {
