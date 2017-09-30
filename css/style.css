@@ -101,7 +101,8 @@ body {
 .person-info__person-photo {
     width: 200px;
     height: 250px;
-    background: #ccc url(http://via.placeholder.com/200x250) 50% 50% /cover;
+    background: #ccc url(/static/n0_photo.png) 50% 50% /cover;
+/*    border: 1px solid #fff;*/
     
 }
 .person-info__person-photo--right {
@@ -221,4 +222,15 @@ header::after {
 }
 
 html { -webkit-text-size-adjust:none; text-size-adjust:none
+}
+a {
+    text-decoration: none;
+    color: #587da7;
+    
+    font-style: italic;
+    
+}
+
+a:visited {
+    color: #bdc3c7;
 }
